@@ -1,11 +1,12 @@
 {
   "name": "nextjs-ml-app",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next dev",
+    "start:start": "next start"
   },
   "dependencies": {
     "next": "12.2.0",
