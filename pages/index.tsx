@@ -5,7 +5,6 @@ import { useState } from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  const [count, setCount] = useState(0)
   return (
     <div className={styles.container}>
       <Head>
@@ -21,8 +20,6 @@ export default function Home() {
       </main>
 
       <p>{count}</p>
-
-      <button onClick={() => setCount(count+1)}>click</button>
 
       <footer className={styles.footer}>
         <a
