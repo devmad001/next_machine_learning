@@ -18,8 +18,6 @@ export default function Home() {
         </h1>
       </main>
 
-      <p>{count}</p>
-
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
